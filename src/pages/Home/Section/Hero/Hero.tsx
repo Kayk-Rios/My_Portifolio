@@ -11,7 +11,13 @@ const Hero = () => {
         height: "100vh",
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        [theme.breakpoints.up('xs')]:{ // < ou igual a mobile
+          paddingTop: '100px'
+        },
+        [theme.breakpoints.up('md')]:{ // > ou igual a mobile
+            paddingTop: '50px'
+        }
     }))
     const StyledImg = styled("img")(({ theme }) => ({
         width: "70%",
@@ -43,7 +49,7 @@ const Hero = () => {
                     </Grid>
 
                     <Grid item xs={12} md={7}>
-                        <Typography color="primary.contrastText" variant="h2" textAlign="center" pd={2}>Kayk Dario</Typography>
+                        <Typography color="primary.contrastText" variant="h2" textAlign="center" pb={2}>Kayk Dario</Typography>
                         <Typography color="primary.contrastText" variant="h3" textAlign="center" >Desenvolvedor Web</Typography>
 
                         <Grid container display="flex" justifyContent="center" spacing={6} pt={3}>

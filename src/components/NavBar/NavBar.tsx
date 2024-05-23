@@ -6,6 +6,12 @@ const NavBar = () => {
         display: 'flex',
         justifyContent: 'space-around'
     }))
+  const handleMenuClick = (id: string) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
 
     return (
@@ -13,20 +19,21 @@ const NavBar = () => {
         <>
 
             <AppBar position="absolute">
-                <StyledToobar> 
-                    <MenuItem>
+                <StyledToobar > 
+                    <MenuItem onClick={() => handleMenuClick('about')}>
                         About
                     </MenuItem>
-                    <MenuItem>
+                    <MenuItem  onClick={() => handleMenuClick('skills')}>
                         Skills
                     </MenuItem>
-                    <MenuItem>
+                    <MenuItem  onClick={() => handleMenuClick('projects')}>
                         Project
                     </MenuItem>
                 </StyledToobar>
 
 
             </AppBar>
+          
         </>
 
     )

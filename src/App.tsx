@@ -1,15 +1,12 @@
-import Home from "./pages/Home/Home"
 
-
+import RoutesPage from "./Routes";
 
 const App = () => {
-
-
   return (
     <>
-     <Home />
+      <RoutesPage />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -114,7 +114,7 @@ const Hero = () => {
                 >
                   <StyledButton>
                     <ArrowDownwardIcon />
-                    <Typography><a href={downloadLink} download='currículo.pdf' style={{ textDecoration: 'none', color: 'inherit' }}>Download CV</a></Typography>
+                    <Typography><a href={downloadLink} download='Currículo.pdf' style={{ textDecoration: 'none', color: 'inherit' }}>Download CV</a></Typography>
                   </StyledButton>
                 </Grid>
                 <Grid

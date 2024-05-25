@@ -39,7 +39,7 @@ a{
 @media (max-width: 700px) {
     .TodoImg, .Mario, .Cafe, .Porti{
         border-radius: 10px;
-        width: 400px;
+        width: 395px;
     }
     h2{
         font-size: larger;
@@ -64,7 +64,7 @@ a{
     .TodoImg, .Mario, .Cafe, .Porti{
         border-radius: 10px;
         margin: 0 auto;
-        width: 250px;
+        width: 245px;
     }
     h3{
 

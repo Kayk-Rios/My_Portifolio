@@ -19,12 +19,12 @@ export default function Projects() {
             <h2 className='h2' id='projects'>Projects</h2>
 
             <div className="divs">
-                <div>
+
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             sx={{ height:200 }}
                             image={img1}
-                            title="green iguana"
+                            title=" Todo List"
                         />
                         <CardContent sx={{ textAlign: 'center' }}>
                             <Typography gutterBottom variant="h5" component="div">
@@ -43,7 +43,7 @@ export default function Projects() {
                         <CardMedia
                             sx={{ height: 200 }}
                             image={img2}
-                            title="green iguana"
+                            title=" Landing page"
                         />
                         <CardContent sx={{ textAlign: 'center' }}>
                             <Typography gutterBottom variant="h5" component="div">
@@ -58,13 +58,13 @@ export default function Projects() {
 
                         </CardActions>
                     </Card>
-                </div>
-                <div>
+               
+             
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             sx={{ height: 200 }}
                             image={img3}
-                            title="green iguana"
+                            title="Portifolio"
                         />
                         <CardContent sx={{ textAlign: 'center' }}>
                             <Typography gutterBottom variant="h5" component="div">
@@ -97,7 +97,7 @@ export default function Projects() {
                             <Button size="small"><Link to={"/Mario"}>Ver Projeto</Link></Button>
                         </CardActions>
                     </Card>
-                </div>
+               
             </div>
         </>
     );

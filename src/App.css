@@ -12,7 +12,7 @@ section{
   margin: auto;
 }
 h2{
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .section{
   margin: 10px;
@@ -30,20 +30,35 @@ h2{
 hr{
   margin: 5px;
 }
-.divs{
-  display: flex;
+
+
+.divs { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
   align-items: center;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-left:250px;
+  margin-bottom: 15px;
+}
+@media (max-width: 700px) {
+  .divs { 
+    justify-content: space-evenly;
+    margin: 20px 40px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: baseline;
+    margin-bottom: 40px;
+    gap: 10px;
+  }
+
 
 }
-
-.divs div{
- 
-  align-items: baseline;
-  margin-bottom: 40px;
-  gap: 10px;
+.divDiv{
+  flex-direction: column;
+  display: flex;
+  padding: 100px;
 }
 .about{
   height: 100vh;

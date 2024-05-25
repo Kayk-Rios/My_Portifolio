@@ -1,8 +1,10 @@
 import img from "../../../../assets/images/cafe.png"
+import Voltar from "../../../../components/buttonVoltar/Voltar"
 import "../../../../project.css"
 export default function Cafe(){
     return(
         <>
+         <Voltar/>
         <div className="bg">
             <h1>Cafe</h1>
             <img src={img} alt="Cafe" className="Cafe" />

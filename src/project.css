@@ -1,77 +1,114 @@
-
-.h2{
-    color: white;
+.h2 {
+  color: white;
 }
 
-.TodoImg, .Mario, .Cafe, .Porti{
-    border-radius: 10px;
-    width: 600px;
+.TodoImg,
+.Mario,
+.Cafe,
+.Porti {
+  border-radius: 10px;
+  width: 600px;
 }
-      
-.bg{
- 
-    padding:120px;
-    width: 100%;
-    margin-top: -120px;
-    height: 130vh;
-    background-color: #243e36;
+
+.bg {
+  padding: 120px;
+  width: 100%;
+  margin-top: -120px;
+  height: 130vh;
+  background-color: #243e36;
 }
-h3 a{
-    color: White;
+h3 a {
+  color: White;
 }
-a{
-    color: white ;
+a {
+  color: white;
 }
-.voltar{
-    margin-left:-1240px;
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 30px;
-    background-color: transparent;
-    border: none;
-    
+.voltar {
+  margin-left: -1240px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: none;
 }
-.voltar:hover{
-    background-color: #305147;
-    padding: 10px;
+.voltar:hover {
+  background-color: #305147;
+  padding: 10px;
 }
 
 @media (max-width: 700px) {
-    .TodoImg, .Mario, .Cafe, .Porti{
-        border-radius: 10px;
-        width: 395px;
-    }
-    h2{
-        font-size: larger;
-        padding-bottom: -30px;
-    }
-    .h1_mario{
-        font-size: 20px;
-    }
+  .TodoImg,
+  .Mario,
+  .Cafe,
+  .Porti {
+    border-radius: 10px;
+    width: 395px;
+  }
+  h2 {
+    font-size: larger;
+    padding-bottom: -30px;
+  }
+  .h1_mario {
+    font-size: 20px;
+  }
 
-    .bg{
-        padding:120px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    .voltar{
-        margin-left:-270px;
-    }
+  .bg {
+    padding: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .voltar {
+    margin-left: -270px;
+  }
 }
 @media (max-width: 400px) {
-    .TodoImg, .Mario, .Cafe, .Porti{
-        border-radius: 10px;
-        margin: 0 auto;
-        width: 300px;
-    }
-    h3{
+  .TodoImg,
+  .Mario,
+  .Cafe,
+  .Porti {
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 300px;
+  }
+  h3 {
+    font-size: 14px;
+    padding-top: -80px;
+  }
+  .h1_mario {
+    font-size: 15px;
+  }
+}
 
-        font-size: 14px;
-        padding-top: -80px;
-    }
-    .h1_mario{
-        font-size: 15px;
-    }
+/* navbar */
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: auto;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  padding: 17px 0;
+  border-bottom: solid 1px #305147;
+}
+.navbar .menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navbar .menu li {
+  color: white;
+  font-size: 17px;
+  list-style: none;
+}
+
+@media (max-width: 700px) {
+  .navbar{
+    display: none;
+  }
+
 }

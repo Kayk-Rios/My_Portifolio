@@ -16,11 +16,11 @@ export default function Projects() {
 
     return (
         <>
-            <h2 className='h2' id='projects'>Projects</h2>
+            <h2 className='h2' id='projects'  >Projects</h2>
 
             <div className="divs">
 
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 345 }} >
                         <CardMedia
                             sx={{ height:200 }}
                             image={img1}

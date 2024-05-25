@@ -1,42 +1,44 @@
-import { AppBar, MenuItem, Toolbar, styled } from "@mui/material"
-
+import { MenuItem } from "@mui/material";
+import "../../project.css";
 const NavBar = () => {
-
-    const StyledToobar = styled(Toolbar)(() => ({
-        display: 'flex',
-        justifyContent: 'space-around'
-    }))
-  const handleMenuClick = (id: string) => {
+    const handleMenuClick = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+            element.scrollIntoView({ behavior: "smooth" });
         }
     };
 
-
     return (
-
         <>
+            <div>
+                <nav className="navbar">
+                    <div className="max-width">
+                        <ul className="menu">
+                            <li>
+                                {" "}
+                                <MenuItem onClick={() => handleMenuClick("about")}>
+                                    About
+                                </MenuItem>{" "}
+                            </li>
+                            <li>
+                                {" "}
+                                <MenuItem onClick={() => handleMenuClick("skills")}>
+                                    Skills
+                                </MenuItem>
+                            </li>
+                            <li>
+                                {" "}
+                                <MenuItem onClick={() => handleMenuClick("projects")}>
+                                    Project
+                                </MenuItem>{" "}
+                            </li>
 
-            <AppBar position="absolute">
-                <StyledToobar > 
-                    <MenuItem onClick={() => handleMenuClick('about')}>
-                        About
-                    </MenuItem>
-                    <MenuItem  onClick={() => handleMenuClick('skills')}>
-                        Skills
-                    </MenuItem>
-                    <MenuItem  onClick={() => handleMenuClick('projects')}>
-                        Project
-                    </MenuItem>
-                </StyledToobar>
-
-
-            </AppBar>
-          
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </>
+    );
+};
 
-    )
-}
-
-export default NavBar
+export default NavBar;

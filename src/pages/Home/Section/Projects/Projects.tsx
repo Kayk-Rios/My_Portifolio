@@ -20,6 +20,27 @@ export default function Projects() {
 
             <div className="divs">
 
+            <Card sx={{ maxWidth: 345 }}>
+                        <CardMedia
+                            sx={{ height: 200 }}
+                            image={img4}
+                            title="FOOF-DK"
+                        />
+                        <CardContent sx={{ textAlign: 'center' }}>
+                            <Typography gutterBottom variant="h5" component="div">
+                                Food DK
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                            Projeto sobre iFood utilizando as tecnologias Next.js e TypeScript. O projeto inclui LocalStorage, props, tipagem e o uso de hooks básicos.
+                            </Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small"><Link to={"/Food"}>Ver Projeto</Link></Button>
+                        </CardActions>
+                    </Card>
+
+
+
                     <Card sx={{ maxWidth: 345 }} >
                         <CardMedia
                             sx={{ height:200 }}
@@ -97,6 +118,8 @@ export default function Projects() {
                             <Button size="small"><Link to={"/Mario"}>Ver Projeto</Link></Button>
                         </CardActions>
                     </Card>
+
+                  
                
             </div>
         </>

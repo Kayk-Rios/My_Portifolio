@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import img5 from '../../../../assets/images/Front-food.png'
 import img4 from '../../../../assets/images/logo-movie.png'
 import img3 from '../../../../assets/images/port.png'
 import img2 from '../../../../assets/images/cafe.png'
@@ -23,7 +24,7 @@ export default function Projects() {
             <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             sx={{ height: 200 }}
-                            image={img4}
+                            image={img5}
                             title="FOOF-DK"
                         />
                         <CardContent sx={{ textAlign: 'center' }}>

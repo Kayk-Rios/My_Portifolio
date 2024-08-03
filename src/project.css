@@ -111,5 +111,120 @@ a {
   .navbar{
     display: none;
   }
+}
 
+/* navbar */
+ 
+/* html , body #root */
+.none{
+  display: none;
+}
+ .app1 {
+  position: relative;
+  min-height: 10vh;
+  max-width: 100vh;
+  width: 50vh;
+ 
+}
+.app2{
+   background: #305147;
+}
+.icon{
+  position: absolute;
+  z-index: 4;
+  left: 1%;
+  width: fit-content;
+  width: 44px;
+  cursor: pointer;
+}
+.hamburguer{
+  margin-top: 20px;
+  top: 50%;
+  left: 12%;
+  width: 37px;
+  height: 6px;
+  background: #243e36;
+  position: absolute;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: 0.5s;
+
+}
+.hamburguer:before{
+  top: -12px;
+  content: '';
+  position: absolute;
+  width: 37px;
+  height: 6px;
+  background: #243e36;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: 0.5s;
+}
+.hamburguer:after{
+  top: 12px;
+  content: '';
+  position: absolute;
+  width: 37px;
+  height: 6px;
+  background: #243e36;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: 0.5s;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  left: 11%;
+  padding: 45px 0 0;
+  flex-wrap: wrap ;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.list .listItems {
+  padding: 0;
+  list-style: none;
+}
+.list .listItems li {
+ margin:  2px 8px;
+ cursor: pointer;
+}
+.list .listItems li:hover {
+  margin:  2px 8px;
+  cursor: pointer;
+ }
+
+ .icon.iconActive .hamburguer{
+  background: transparent;
+  box-shadow: 0 2px 5px transparent;
+
+ }
+ .icon.iconActive .hamburguer:after{
+  top: 0;
+  background: #457466;
+  transform: rotate(225deg);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+ }
+ .icon.iconActive .hamburguer:before{
+  top: 0;
+  background: #457466;
+  transform: rotate(135deg);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  transition: 1.1s;
+ }
+ .menu.menuOpen{
+  width: 300px;
+  height: 100vh;
+  background: #305147;
+  transition: 1.1s;
+  box-shadow: 10px 0px 69px 0px rgba(0, 0, 0, 0.52);
+ }
+ .menu.menuClose{
+  display: none;
+  width: 0px;
+ }
+
+ @media (max-width: 700px) {
+
+  .none{
+    display: flex ;
+  }
 }

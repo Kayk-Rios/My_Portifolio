@@ -10,7 +10,7 @@ import Avatar from "../../../../assets/images/avatar.jpg";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
-import downloadLink from "../../../../Download/currículo.pdf";
+import downloadLink from "../../../../Download/currículo2.pdf";
 import "../../../../App.css"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Typical from 'react-typical'
@@ -114,7 +114,7 @@ const Hero = () => {
                 >
                   <StyledButton>
                     <ArrowDownwardIcon />
-                    <Typography><a href={downloadLink} download='currículo.pdf' style={{ textDecoration: 'none', color: 'inherit' }}>Download CV</a></Typography>
+                    <Typography><a href={downloadLink} download='currículo2.pdf' style={{ textDecoration: 'none', color: 'inherit' }}>Download CV</a></Typography>
                   </StyledButton>
                 </Grid>
                 <Grid

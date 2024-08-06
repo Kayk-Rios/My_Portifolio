@@ -6,6 +6,7 @@ import Portifolio2 from "./pages/Home/Section/Projects/Portifolio2"
 import Cafe from "./pages/Home/Section/Projects/Cafe"
 import Home from "./pages/Home/Home";
 import Food from "./pages/Home/Section/Projects/Food";
+import SalaoBele from "./pages/Home/Section/Projects/Salao";
 
 const RoutesPage = () => {
   return (
@@ -17,7 +18,7 @@ const RoutesPage = () => {
         <Route path="/Portifolio2" element={<Portifolio2 />} />
         <Route path="/Cafe" element={<Cafe />} />
         <Route path="/Food" element={<Food />} />
-    
+        <Route path="/Salao" element={<SalaoBele />} />
       </Routes>
     </BrowserRouter>
   );

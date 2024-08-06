@@ -39,6 +39,16 @@ export function Skills() {
             </Grid>
             <Grid item xs={5} md={6} display="flex" justifyContent="center">
                 <StyledButton onClick={() => console.log("contact")}>
+                    <Typography>Next.js</Typography>
+                </StyledButton>
+            </Grid>
+            <Grid item xs={5} md={6} display="flex" justifyContent="center">
+                <StyledButton onClick={() => console.log("contact")}>
+                    <Typography>React.js</Typography>
+                </StyledButton>
+            </Grid>
+            <Grid item xs={5} md={6} display="flex" justifyContent="center">
+                <StyledButton onClick={() => console.log("contact")}>
                     <Typography>Git</Typography>
                 </StyledButton>
             </Grid>

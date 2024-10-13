@@ -8,12 +8,12 @@ import {
 } from "@mui/material";
 import Avatar from "../../../../assets/images/avatar.jpg";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
 import downloadLink from "../../../../Download/Curruculo_Rec.pdf";
-import "../../../../App.css"
-import GitHubIcon from '@mui/icons-material/GitHub';
-import Typical from 'react-typical'
+import "../../../../App.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import Typical from "react-typical";
 
 const StyledButton = styled(IconButton)(({ theme }) => ({
   backgroundColor: "transparent",
@@ -30,16 +30,7 @@ const StyledButton = styled(IconButton)(({ theme }) => ({
   },
 }));
 
-
-
 const Hero = () => {
-
-
-
-
-
-
-
   const StyledHero = styled("div")(({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
     height: "100vh",
@@ -91,11 +82,13 @@ const Hero = () => {
                 variant="h4"
                 textAlign="center"
               >
-                <span className="dev">Desenvolvedor Web <Typical
-                  steps={['-React', 2000, '-TypeScript', 2000]}
-                  loop={Infinity}
-                  wrapper="p"
-                />
+                <span className="dev">
+                  Desenvolvedor Web{" "}
+                  <Typical
+                    steps={["-React", 2000, "-TypeScript", 2000]}
+                    loop={Infinity}
+                    wrapper="p"
+                  />
                 </span>
               </Typography>
               <Grid
@@ -114,7 +107,15 @@ const Hero = () => {
                 >
                   <StyledButton>
                     <ArrowDownwardIcon />
-                    <Typography><a href={downloadLink} download='Curruculo_Rec.pdf' style={{ textDecoration: 'none', color: 'inherit' }}>Download CV</a></Typography>
+                    <Typography>
+                      <a
+                        href={downloadLink}
+                        download="Curruculo_Rec.pdf"
+                        style={{ textDecoration: "none", color: "inherit" }}
+                      >
+                        <h2>Download CV</h2>
+                      </a>
+                    </Typography>
                   </StyledButton>
                 </Grid>
                 <Grid
@@ -125,12 +126,30 @@ const Hero = () => {
                   justifyContent="center"
                 >
                   <StyledButton>
-
                     <Typography>
-                      <a href="https://www.linkedin.com/in/kayk-dario" target="_blank" rel="noopener noreferrer"> <LinkedInIcon className="Link" style={{ marginRight: '50px' }} /> </a>
+                      <a
+                        href="https://www.linkedin.com/in/kayk-dario"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <LinkedInIcon
+                          className="Link "
+                          color="info"
+                          style={{ height: "50px", width: "50px" }}
+                        />
+                      </a>
                     </Typography>
+                    <br/>
                     <Typography>
-                      <a href="https://github.com/Kayk-Rios" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{ marginLeft: '50px' }} /></a>
+                      <a
+                        href="https://github.com/Kayk-Rios"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <GitHubIcon
+                          style={{ height: "40px", width: "40px" }}
+                        />
+                      </a>
                     </Typography>
                   </StyledButton>
                 </Grid>

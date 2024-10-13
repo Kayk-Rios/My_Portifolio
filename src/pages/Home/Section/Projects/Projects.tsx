@@ -10,6 +10,7 @@ import img3 from "../../../../assets/images/port.png";
 import img2 from "../../../../assets/images/cafe.png";
 import img1 from "../../../../assets/images/todoList2.png";
 import img6 from "../../../../assets/images/salao3.png"
+import CodeIcon from '@mui/icons-material/Code';
 
 import "../../../../App.css";
 import { Link } from "react-router-dom";
@@ -17,18 +18,10 @@ import { Link } from "react-router-dom";
 export default function Projects() {
   return (
     <>
-      <h2 className="h2" id="projects">
-        Projects
-      </h2>
+      <h1 id="projects">Projects</h1>
 
       <div className="divs">
-
-
-
-
-
-
-      <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345 }}>
           <CardMedia sx={{ height: 200 }} image={img6} title="Salao-brutal" />
           <CardContent sx={{ textAlign: "center" }}>
             <Typography gutterBottom variant="h5" component="div">
@@ -36,23 +29,27 @@ export default function Projects() {
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Projeto sobre Salao utilizando as tecnologias Next.js e
-              TypeScript. Cabelo afiado e bem feito, barba de lenhador e mãos de motoqueiro, tudo ao som de rock pesado!.
+              TypeScript. Cabelo afiado e bem feito, barba de lenhador e mãos de
+              motoqueiro, tudo ao som de rock pesado!.
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small">
+          <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+            <Button size="small" variant="outlined">
+              {" "}
               <Link to={"/Salao"}>Ver Projeto</Link>
+            </Button>
+            <Button size="small" variant="outlined">
+              <a
+                href="https://github.com/Kayk-Rios/Salao-bele-front-back-bd-mobile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              
+               Codigo
+              </a>  <CodeIcon></CodeIcon>
             </Button>
           </CardActions>
         </Card>
-
-
-
-
-
-
-
-
 
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia sx={{ height: 200 }} image={img5} title="FOOF-DK" />
@@ -66,9 +63,18 @@ export default function Projects() {
               de hooks básicos.
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small">
+          <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+            <Button size="small" variant="outlined">
               <Link to={"/Food"}>Ver Projeto</Link>
+            </Button>
+            <Button size="small" variant="outlined">
+              <a
+                href="https://github.com/Kayk-Rios/FOOD-DK"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+               Codigo
+              </a><CodeIcon></CodeIcon>
             </Button>
           </CardActions>
         </Card>
@@ -85,9 +91,18 @@ export default function Projects() {
               e LocaStorage, o Todo List se beneficia da tipagem do Typescript.
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="medium">
+          <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+            <Button size="small" variant="outlined">
               <Link to={"/TodoLis"}>Ver Projeto</Link>
+            </Button>
+            <Button size="small" variant="outlined">
+              <a
+                href="https://github.com/Kayk-Rios/TodoList"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+               Codigo
+              </a><CodeIcon></CodeIcon>
             </Button>
           </CardActions>
         </Card>
@@ -102,9 +117,18 @@ export default function Projects() {
               fins de treinar a base de estilização.
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small">
+          <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+            <Button size="small" variant="outlined">
               <Link to={"/Cafe"}>Ver Projeto</Link>
+            </Button>
+            <Button size="small" variant="outlined">
+              <a
+                href="https://github.com/Kayk-Rios/Cafe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+               Codigo
+              </a><CodeIcon></CodeIcon>
             </Button>
           </CardActions>
         </Card>
@@ -120,10 +144,20 @@ export default function Projects() {
               exibir as minhas habilidades no 2 perioso da faculdade de ADS,.
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small">
+          <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+            <Button size="small" variant="outlined">
               <Link to={"/Portifolio2"}>Ver Projeto</Link>
             </Button>
+            <Button size="small" variant="outlined">
+            <a
+                href="https://github.com/Kayk-Rios/Portifolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+               Codigo
+              </a><CodeIcon></CodeIcon>
+            </Button>
+       
           </CardActions>
         </Card>
         <Card sx={{ maxWidth: 345 }}>
@@ -141,9 +175,18 @@ export default function Projects() {
               HTML,CSS e JS. Junto com o jogo feito em Ionic com Typescript
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button size="small">
+          <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+            <Button size="small" variant="outlined">
               <Link to={"/Mario"}>Ver Projeto</Link>
+            </Button>
+            <Button size="small" variant="outlined">
+              <a
+                href="https://github.com/Kayk-Rios/MarioBrosIonic"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+               Codigo
+              </a><CodeIcon></CodeIcon>
             </Button>
           </CardActions>
         </Card>

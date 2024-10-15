@@ -141,7 +141,7 @@ export default function Projects() {
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Portifolio 2 feito com as tecnologias JavaScript, HTML e CSSS para
-              exibir as minhas habilidades no 2 perioso da faculdade de ADS,.
+              exibir as minhas habilidades no 2 perioso da faculdade de ADS.
             </Typography>
           </CardContent>
           <CardActions sx={{ justifyContent: "center", gap: 2 }}>

@@ -39,7 +39,7 @@ export default function Hospital() {
           <h3>
             {" "}
             <a
-              href="https://github.com/Kayk-Rios/landingpagedecub"
+              href="https://decubtech.site/"
               target="_blank"
               rel="noopener noreferrer"
             >

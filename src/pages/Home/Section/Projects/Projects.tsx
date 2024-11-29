@@ -73,7 +73,7 @@ export default function Projects() {
             </Button>
             <Button size="small" variant="outlined">
               <a
-                href="https://github.com/Kayk-Rios/Decubtech-Front-End"
+                href="https://github.com/Kayk-Rios/landingpagedecub"
                 target="_blank"
                 rel="noopener noreferrer"
               >

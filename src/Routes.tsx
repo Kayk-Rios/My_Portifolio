@@ -7,6 +7,7 @@ import Cafe from "./pages/Home/Section/Projects/Cafe"
 import Home from "./pages/Home/Home";
 import Food from "./pages/Home/Section/Projects/Food";
 import SalaoBele from "./pages/Home/Section/Projects/Salao";
+import Hospital from "./pages/Home/Section/Projects/Hospital";
 
 const RoutesPage = () => {
   return (
@@ -19,6 +20,7 @@ const RoutesPage = () => {
         <Route path="/Cafe" element={<Cafe />} />
         <Route path="/Food" element={<Food />} />
         <Route path="/Salao" element={<SalaoBele />} />
+        <Route path="/Hospital" element={<Hospital />} />
       </Routes>
     </BrowserRouter>
   );

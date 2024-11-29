@@ -3,6 +3,10 @@
   box-sizing: border-box;
   text-align: center;
 }
+body {
+  overflow-x: hidden;
+}
+
 .card {
   padding: 2em;
 }

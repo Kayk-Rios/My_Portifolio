@@ -10,6 +10,7 @@ import img3 from "../../../../assets/images/port.png";
 import img2 from "../../../../assets/images/cafe.png";
 import img1 from "../../../../assets/images/todoList2.png";
 import img6 from "../../../../assets/images/salao3.png"
+import img7 from "../../../../assets/images/decub.png"
 import CodeIcon from '@mui/icons-material/Code';
 
 import "../../../../App.css";
@@ -50,6 +51,41 @@ export default function Projects() {
             </Button>
           </CardActions>
         </Card>
+
+
+
+
+        <Card sx={{ maxWidth: 345 }}>
+          <CardMedia sx={{ height: 200 }} image={img7} title="Salao-brutal" />
+          <CardContent sx={{ textAlign: "center" }}>
+            <Typography gutterBottom variant="h5" component="div">
+            DecubTech
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Projeto voltado para uso em hospitais utilizando as tecnologias Next.js e
+              TypeScript Nestjs e PostgreSQL. Melhore a organizaçao da sua area hospitalar com DecubTech o sistema de decubito.
+            </Typography>
+          </CardContent>
+          <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+            <Button size="small" variant="outlined">
+    
+              <Link to={"/Hospital"}>Ver Projeto</Link>
+            </Button>
+            <Button size="small" variant="outlined">
+              <a
+                href="https://github.com/Kayk-Rios/Decubtech-Front-End"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              
+               Codigo
+              </a>  <CodeIcon></CodeIcon>
+            </Button>
+          </CardActions>
+        </Card>
+
+
+
 
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia sx={{ height: 200 }} image={img5} title="FOOF-DK" />

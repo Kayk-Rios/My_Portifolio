@@ -15,6 +15,12 @@ import CodeIcon from '@mui/icons-material/Code';
 
 import "../../../../App.css";
 import { Link } from "react-router-dom";
+import { styled } from '@mui/material/styles';
+
+const BoldText = styled('span')({
+  fontWeight: 800, // equivalente a Tailwind `font-extrabold`
+});
+
 
 export default function Projects() {
   return (
@@ -29,7 +35,7 @@ export default function Projects() {
               Salao Brutal
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Projeto sobre Salao utilizando as tecnologias Next.js e
+              Projeto <BoldText className="!font-extrabold">Full-Stack</BoldText> sobre Salao utilizando as tecnologias Next.js e
               TypeScript. Cabelo afiado e bem feito, barba de lenhador e mãos de
               motoqueiro, tudo ao som de rock pesado!.
             </Typography>
@@ -62,7 +68,7 @@ export default function Projects() {
             DecubTech
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Projeto voltado para uso em hospitais utilizando as tecnologias Next.js e
+              Projeto <BoldText className="!font-extrabold">Full-Stack</BoldText>  voltado para uso em hospitais utilizando as tecnologias Next.js e
               TypeScript Nestjs e PostgreSQL. Melhore a organizaçao da sua area hospitalar com DecubTech o sistema de decubito.
             </Typography>
           </CardContent>
@@ -94,7 +100,7 @@ export default function Projects() {
               Food DK
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Projeto sobre iFood utilizando as tecnologias Next.js e
+              Projeto <BoldText className="!font-extrabold">Front-End</BoldText> sobre iFood utilizando as tecnologias Next.js e
               TypeScript. O projeto inclui LocalStorage, props, tipagem e o uso
               de hooks básicos.
             </Typography>
@@ -122,7 +128,7 @@ export default function Projects() {
               TodoList
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Todo List, aplicação simples, mas fundamental, que permite criar,
+            Projeto <BoldText className="!font-extrabold">Front-End</BoldText>  Todo List, aplicação simples, mas fundamental, que permite criar,
               visualizar, editar e excluir tarefas. Feita com TypeScript e React
               e LocaStorage, o Todo List se beneficia da tipagem do Typescript.
             </Typography>
@@ -149,7 +155,7 @@ export default function Projects() {
               Cafeteria
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Landing page de Cafeteria feita com as tecnologias HTML e CSS para
+            Projeto <BoldText className="!font-extrabold">Front-End</BoldText>   Landing page de Cafeteria feita com as tecnologias HTML e CSS para
               fins de treinar a base de estilização.
             </Typography>
           </CardContent>
@@ -176,7 +182,7 @@ export default function Projects() {
               Portifolio 2
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Portifolio 2 feito com as tecnologias JavaScript, HTML e CSSS para
+            Projeto <BoldText className="!font-extrabold">Front-End</BoldText>    Portifolio 2 feito com as tecnologias JavaScript, HTML e CSSS para
               exibir as minhas habilidades no 2 perioso da faculdade de ADS.
             </Typography>
           </CardContent>
@@ -207,7 +213,7 @@ export default function Projects() {
               Mario Bross
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Projeto sobre Mario Bros em Landing page contendo as tecnologias
+            Projeto <BoldText className="!font-extrabold">Front-End</BoldText>   Projeto sobre Mario Bros em Landing page contendo as tecnologias
               HTML,CSS e JS. Junto com o jogo feito em Ionic com Typescript
             </Typography>
           </CardContent>

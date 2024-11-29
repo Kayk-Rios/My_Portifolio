@@ -39,7 +39,7 @@ export default function Hospital() {
           <h3>
             {" "}
             <a
-              href="https://landingpagedecub.netlify.app/"
+              href="https://github.com/Kayk-Rios/landingpagedecub"
               target="_blank"
               rel="noopener noreferrer"
             >

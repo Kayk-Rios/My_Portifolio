@@ -85,7 +85,7 @@ const Hero = () => {
                 <span className="dev">
                   Desenvolvedor Web{" "}
                   <Typical
-                    steps={["-React", 2000, "-TypeScript", 2000]}
+                    steps={["-NextJs", 2000, "-TypeScript", 2000]}
                     loop={Infinity}
                     wrapper="p"
                   />

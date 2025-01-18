@@ -275,18 +275,94 @@ export default function Projects() {
 
 
 
+       
+
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          exit={{ opacity: 0, x: -50 }}
+        >
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia
+              sx={{ height: 200 }}
+              image={img4}
+              title="logo-mariobross"
+            />
+            <CardContent sx={{ textAlign: "center" }}>
+              <Typography gutterBottom variant="h5" component="div">
+                Mario Bross
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Projeto{" "}
+                <BoldText className="!font-extrabold">Front-End</BoldText>{" "}
+                Projeto sobre jogo do Mario Bros contendo as tecnologias
+                Ionic e Typescript.
+              </Typography>
+            </CardContent>
+            <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+              <Button size="small" variant="outlined">
+                <Link to={"/Mario"}>Ver Projeto</Link>
+              </Button>
+              <Button size="small" variant="outlined">
+                <a
+                  href="https://github.com/Kayk-Rios/MarioBrosIonic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Codigo
+                </a>
+                <CodeIcon></CodeIcon>
+              </Button>
+            </CardActions>
+          </Card>
+        </motion.div>
 
 
 
 
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          exit={{ opacity: 0, x: -50 }}
+        >
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia sx={{ height: 200 }} image={img3} title="Portifolio" />
+            <CardContent sx={{ textAlign: "center" }}>
+              <Typography gutterBottom variant="h5" component="div">
+                Portifolio 2
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Projeto{" "}
+                <BoldText className="!font-extrabold">Front-End</BoldText>{" "}
+                Portifolio 2 feito com as tecnologias JavaScript, HTML e CSSS
+                para exibir as minhas habilidades no 2 perioso da faculdade de
+                ADS.
+              </Typography>
+            </CardContent>
+            <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+              <Button size="small" variant="outlined">
+                <Link to={"/Portifolio2"}>Ver Projeto</Link>
+              </Button>
+              <Button size="small" variant="outlined">
+                <a
+                  href="https://github.com/Kayk-Rios/Portifolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Codigo
+                </a>
+                <CodeIcon></CodeIcon>
+              </Button>
+            </CardActions>
+          </Card>
+        </motion.div>
 
 
-
-
-
-
-
-
+    
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, y: 0 }}
@@ -329,86 +405,7 @@ export default function Projects() {
           </Card>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, x: 100 }}
-          animate={{ opacity: 1, y: 0 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          exit={{ opacity: 0, x: -50 }}
-        >
-          <Card sx={{ maxWidth: 345 }}>
-            <CardMedia sx={{ height: 200 }} image={img3} title="Portifolio" />
-            <CardContent sx={{ textAlign: "center" }}>
-              <Typography gutterBottom variant="h5" component="div">
-                Portifolio 2
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Projeto{" "}
-                <BoldText className="!font-extrabold">Front-End</BoldText>{" "}
-                Portifolio 2 feito com as tecnologias JavaScript, HTML e CSSS
-                para exibir as minhas habilidades no 2 perioso da faculdade de
-                ADS.
-              </Typography>
-            </CardContent>
-            <CardActions sx={{ justifyContent: "center", gap: 2 }}>
-              <Button size="small" variant="outlined">
-                <Link to={"/Portifolio2"}>Ver Projeto</Link>
-              </Button>
-              <Button size="small" variant="outlined">
-                <a
-                  href="https://github.com/Kayk-Rios/Portifolio"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Codigo
-                </a>
-                <CodeIcon></CodeIcon>
-              </Button>
-            </CardActions>
-          </Card>
-        </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, x: -100 }}
-          animate={{ opacity: 1, y: 0 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          exit={{ opacity: 0, x: -50 }}
-        >
-          <Card sx={{ maxWidth: 345 }}>
-            <CardMedia
-              sx={{ height: 200 }}
-              image={img4}
-              title="logo-mariobross"
-            />
-            <CardContent sx={{ textAlign: "center" }}>
-              <Typography gutterBottom variant="h5" component="div">
-                Mario Bross
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Projeto{" "}
-                <BoldText className="!font-extrabold">Front-End</BoldText>{" "}
-                Projeto sobre Mario Bros contendo as tecnologias
-                Ionic e Typescript.
-              </Typography>
-            </CardContent>
-            <CardActions sx={{ justifyContent: "center", gap: 2 }}>
-              <Button size="small" variant="outlined">
-                <Link to={"/Mario"}>Ver Projeto</Link>
-              </Button>
-              <Button size="small" variant="outlined">
-                <a
-                  href="https://github.com/Kayk-Rios/MarioBrosIonic"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Codigo
-                </a>
-                <CodeIcon></CodeIcon>
-              </Button>
-            </CardActions>
-          </Card>
-        </motion.div>
       </div>
     </>
   );

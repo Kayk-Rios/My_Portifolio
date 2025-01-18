@@ -5,9 +5,9 @@ import Voltar from "../../../../components/buttonVoltar/Voltar"
 import "../../../../project.css"
 import Button from "@mui/material/Button"
 import JsIcon from "../../../../components/icontech/JsIcon"
-import HtmlIcon from "../../../../components/icontech/HtmlIcon"
 import IonicIcon from "../../../../components/icontech/IonicIcon"
 import TypescriptIcon from "../../../../components/icontech/TypescriptIcon"
+import AngularIcon from "../../../../components/icontech/AngularIcon"
 
 export default function AbaTodo(){
     return(
@@ -21,9 +21,10 @@ export default function AbaTodo(){
                 <Typography variant="body2" color="white"> 
                       <h2>Tecnologias usadas </h2>
                 <JsIcon/>
+                <AngularIcon/>
                 <IonicIcon/>
                 <TypescriptIcon /> 
-                <HtmlIcon/>
+               
 
             </Typography>
             <br />

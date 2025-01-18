@@ -12,6 +12,8 @@ import img2 from "../../../../assets/images/cafe.png";
 import img1 from "../../../../assets/images/todoList2.png";
 import img6 from "../../../../assets/images/salao3.png";
 import img7 from "../../../../assets/images/decub.png";
+import img8 from "../../../../assets/images/galStore.png";
+import img9 from "../../../../assets/images/everyone_b_tech.png";
 import CodeIcon from "@mui/icons-material/Code";
 import { motion } from "framer-motion";
 import "../../../../App.css";
@@ -185,6 +187,106 @@ export default function Projects() {
           </Card>
         </motion.div>
 
+
+
+
+
+
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          exit={{ opacity: 0, x: -50 }}
+        >
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia sx={{ height: 200 }} image={img8} title=" Todo List" />
+            <CardContent sx={{ textAlign: "center" }}>
+              <Typography gutterBottom variant="h5" component="div">
+              GalStore
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Projeto{" "}
+                <BoldText className="!font-extrabold">Front-End</BoldText>, landingpage de Loja de roupas, aplicação simples, mas fundamental, que permite escolher items da loja, soma dos items, colocar em carrinho de compras e compra via WhatsApp . Feita com TypeScript e
+                Angular e Tailwind, se beneficia da tipagem do
+                Typescript.
+              </Typography>
+            </CardContent>
+            <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+              <Button size="small" variant="outlined">
+                <Link to={"/GalStore"}>Ver Projeto</Link>
+              </Button>
+              <Button size="small" variant="outlined">
+                <a
+                  href="https://github.com/Kayk-Rios/appangularLoja"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Codigo
+                </a>
+                <CodeIcon></CodeIcon>
+              </Button>
+            </CardActions>
+          </Card>
+        </motion.div>
+
+
+
+        <motion.div
+          initial={{ opacity: 0, x: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          exit={{ opacity: 0, x: -50 }}
+        >
+          <Card sx={{ maxWidth: 345 }}>
+            <CardMedia sx={{ height: 200 }} image={img9} title=" Todo List" />
+            <CardContent sx={{ textAlign: "center" }}>
+              <Typography gutterBottom variant="h5" component="div">
+              Everyone-b-tech
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Projeto{" "}
+                <BoldText className="!font-extrabold">Front-End</BoldText> aplicação feita em equipe com colaboradores e fundamental, que permite oferecer soluções tecnológicas inovadoras que impulsionem a eficiência das pessoas, promovam a igualdade de gênero e fomentem uma cultura inclusiva. Feito com TypeScript e
+                Next.js e Tailwind, se beneficia da tipagem do
+                Typescript.
+              </Typography>
+            </CardContent>
+            <CardActions sx={{ justifyContent: "center", gap: 2 }}>
+              <Button size="small" variant="outlined">
+                <Link to={"/Btech"}>Ver Projeto</Link>
+              </Button>
+              <Button size="small" variant="outlined">
+                <a
+                  href="https://github.com/Kayk-Rios/everyone_b_tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Codigo
+                </a>
+                <CodeIcon></CodeIcon>
+              </Button>
+            </CardActions>
+          </Card>
+        </motion.div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, y: 0 }}
@@ -286,8 +388,8 @@ export default function Projects() {
               <Typography variant="body2" color="text.secondary">
                 Projeto{" "}
                 <BoldText className="!font-extrabold">Front-End</BoldText>{" "}
-                Projeto sobre Mario Bros em Landing page contendo as tecnologias
-                HTML,CSS e JS. Junto com o jogo feito em Ionic com Typescript
+                Projeto sobre Mario Bros contendo as tecnologias
+                Ionic e Typescript.
               </Typography>
             </CardContent>
             <CardActions sx={{ justifyContent: "center", gap: 2 }}>

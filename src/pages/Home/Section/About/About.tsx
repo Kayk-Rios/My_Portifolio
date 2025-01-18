@@ -45,7 +45,7 @@ const About = () => {
         Sou um desenvolvedor web apaixonado por criar experiências memoráveis e funcionais.
         Com habilidades sólidas em desenvolvimento front-end, estou me especializando em construir
         sites e aplicações web intuitivos. Minha experiência inclui o uso de tecnologias como React.js,
-        JavaScript, TypeScript, Git, HTML5, CSS3.
+        JavaScript, TypeScript, Git, Angular e tailwind.
       </p>
       <hr />
     </div>

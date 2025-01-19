@@ -43,8 +43,7 @@ const About = () => {
       </div>
       <p className='p'>
         Sou um desenvolvedor web apaixonado por criar experiências memoráveis e funcionais.
-        Com habilidades sólidas em desenvolvimento web, estou me especializado em construir aplicações web completas. Minha experiência inclui o uso de tecnologias como React.js,
-        JavaScript, TypeScript, Git, Angular e tailwind.
+        Com habilidades sólidas em desenvolvimento web, estou me especializado em construir aplicações web completas. Minha experiência inclui o uso de tecnologias como Next.js, TypeScript, Git, Angular e tailwind.
       </p>
       <hr />
     </div>

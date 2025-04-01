@@ -12,27 +12,32 @@ import ReactNativeIcon from "../../../../components/icontech/ReactNativeIcon";
 import NextIcon from "../../../../components/icontech/NextIcon";
 import JsIcon from "../../../../components/icontech/JsIcon";
 import TypescriptIcon from "../../../../components/icontech/TypescriptIcon";
+import Docker from "../../../../components/icontech/Docker";
+import Prisma from "../../../../components/icontech/Prisma";
+import Tailwind from "../../../../components/icontech/Tailwind";
+import Git from "../../../../components/icontech/Git";
+import Linux from "../../../../components/icontech/Linux";
 
 export function Skills() {
   const StyledHero = styled("div")(({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
-    height: "115vh",
+    minHeight: "100vh", // Define uma altura mínima para evitar cortes
+    display: "flex",
+    flexDirection: "column",
     alignItems: "center",
-    justifyContent: "space-between",
+    justifyContent: "center",
     color: "white",
     padding: "10px",
     [theme.breakpoints.up("xs")]: {
-      // <= mobile
-      paddingTop: "2px",
+      paddingTop: "20px",
+      paddingBottom: "50px",
+    },
+    [theme.breakpoints.up("md")]: {
+      paddingTop: "40px",
       paddingBottom: "100px",
     },
-
-    [theme.breakpoints.up("md")]: {
-      // > mobile
-      paddingTop: "10px",
-      paddingBottom: "400px",
-    },
   }));
+  
 
   return (
     <>
@@ -61,7 +66,7 @@ export function Skills() {
           </Grid>
           <Grid item xs={5} md={6} display="flex" justifyContent="center">
             <StyledButton onClick={() => console.log("contact")}>
-              <Typography title="NextJs ">
+              <Typography title="Next.Js ">
               <NextIcon />
               </Typography>
             </StyledButton>
@@ -143,6 +148,41 @@ export function Skills() {
             <StyledButton onClick={() => console.log("contact")}>
               <Typography title="NestJs ">
               <Nesticon />
+              </Typography>
+            </StyledButton>
+          </Grid>
+          <Grid item xs={5} md={6} display="flex" justifyContent="center">
+            <StyledButton onClick={() => console.log("contact")}>
+              <Typography title="Docker ">
+              <Docker/>
+              </Typography>
+            </StyledButton>
+          </Grid>
+          <Grid item xs={5} md={6} display="flex" justifyContent="center">
+            <StyledButton onClick={() => console.log("contact")}>
+              <Typography title="Prisma ">
+              <Prisma/>
+              </Typography>
+            </StyledButton>
+          </Grid>
+          <Grid item xs={5} md={6} display="flex" justifyContent="center">
+            <StyledButton onClick={() => console.log("contact")}>
+              <Typography title="Tailwind ">
+              <Tailwind/>
+              </Typography>
+            </StyledButton>
+          </Grid>
+          <Grid item xs={5} md={6} display="flex" justifyContent="center">
+            <StyledButton onClick={() => console.log("contact")}>
+              <Typography title="Git ">
+              <Git/>
+              </Typography>
+            </StyledButton>
+          </Grid>
+          <Grid item xs={5} md={6} display="flex" justifyContent="center">
+            <StyledButton onClick={() => console.log("contact")}>
+              <Typography title="Linux ">
+              <Linux/>
               </Typography>
             </StyledButton>
           </Grid>

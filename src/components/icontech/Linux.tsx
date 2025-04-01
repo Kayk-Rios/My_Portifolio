@@ -2,9 +2,19 @@
 export default function Linux(){
     return(
         <>
-        <svg version="1.1" 
-        width={"60"} height={"50"}
-        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 2 48 48" enable-background="new 0 2 48 48" xml:space="preserve">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  viewBox="0 2 48 48"
+  enable-background="new 0 2 48 48"
+  xmlSpace="preserve"
+  version="1.1"
+  width="50"
+  height="50"
+>
+
 <polygon fill="#ECEFF1" points="20.1,18.2 20.2,20.5 18.6,23.5 16.1,28.4 15.6,32.5 17.4,38.3 21.5,40.6 27.7,40.6 33.5,36.2 
 	36.1,29.3 30.1,22 28.4,17.9 "></polygon>
 <path fill="#263238" d="M34.3,23.9c-1.6-2.3-2.9-3.7-3.6-6.6c-0.7-2.9,0.2-2.1-0.4-4.6c-0.3-1.3-0.8-2.2-1.3-2.9

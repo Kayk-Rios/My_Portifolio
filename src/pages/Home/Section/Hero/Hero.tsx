@@ -10,7 +10,7 @@ import Avatar from "../../../../assets/images/avatar.jpg";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
-import downloadLink from "../../../../Download/Curruculo_Rec.pdf";
+import downloadLink from "../../../../Download/Currículo_Full-Stack_2.pdf";
 import "../../../../App.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Typical from "react-typical";
@@ -110,7 +110,7 @@ const Hero = () => {
                     <Typography>
                       <a
                         href={downloadLink}
-                        download="Curruculo_Rec.pdf"
+                        download="Currículo_Full-Stack_2.pdf"
                         style={{ textDecoration: "none", color: "inherit" }}
                       >
                         <h2>Download CV</h2>

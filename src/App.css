@@ -3,6 +3,10 @@
   box-sizing: border-box;
   text-align: center;
 }
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 body {
   overflow-x: hidden;
 }
@@ -12,7 +16,8 @@ body {
 }
 section{
   border: 1px solid;
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   margin: auto;
 }
 h2{
@@ -46,18 +51,19 @@ hr{
     margin: 20px 40px;
     display: flex;
     flex-direction: column;
-   justify-content: center;
+    justify-content: center;
     align-items: baseline;
     margin-bottom: 40px;
     gap: 10px;
   }
+  
 
 
 }
 .divDiv{
   flex-direction: column;
   display: flex;
-  padding: 100px;
+  padding: 20px;
 }
 .about{
   height: 100vh;

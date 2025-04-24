@@ -83,7 +83,7 @@ const Hero = () => {
                 textAlign="center"
               >
                 <span className="dev">
-                  Desenvolvedor Web{" "}
+                  Developer Full-Stack{" "}
                   <Typical
                     steps={["-NextJs", 2000, "-TypeScript", 2000, "-NodeJs", 2000, "-NestJs", 2000]}
                     loop={Infinity}

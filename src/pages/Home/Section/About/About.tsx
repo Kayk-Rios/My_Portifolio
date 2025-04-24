@@ -21,8 +21,8 @@ const About = () => {
           <section className="section-card">
             <WorkspacePremiumIcon />
             <h4>Experience</h4>
-            <p>2+ year</p>
-            <p>Frontend Developer</p>
+            <p>2+ Anos</p>
+            <p>Desenvolvedor Full-Stack</p>
           </section>
         </motion.div>
 
@@ -36,14 +36,14 @@ const About = () => {
           <section className="section-card">
             <SchoolIcon />
             <h4>Education</h4>
-            <p>Technologist</p>
-            <p>Systems Analysis</p>
+            <p>Analise e Desenvolvimento de Sistemas</p>
+            <p> CENTRO UNIVERSITÁRIO MAURÍCIO DE NASSAU (UNINASSAU)</p>
           </section>
         </motion.div>
       </div>
       <p className='p'>
-        Sou um desenvolvedor web apaixonado por criar experiências memoráveis e funcionais.
-        Com habilidades sólidas em desenvolvimento web, estou me especializado em construir aplicações web completas. Minha experiência inclui o uso de tecnologias como Next.js, TypeScript, Git, Angular e tailwind.
+        Sou um Full-Stack apaixonado por criar experiências e funcionais.
+        Com habilidades sólidas em desenvolvimento Web e Mobile, especializado em construir aplicações completas.
       </p>
       <hr />
     </div>

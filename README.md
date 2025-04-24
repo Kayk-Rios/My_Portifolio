@@ -1,32 +1,36 @@
-# React + TypeScript + Vite
+
 
 Link para ver acessar Site: https://kayk-rios-portifolio.netlify.app 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📁 Portfólio
 
-Currently, two official plugins are available:
+Este projeto é um portfólio pessoal desenvolvido com React, TypeScript e Vite, utilizando bibliotecas modernas como Material UI, Framer Motion e ScrollReveal para criar uma experiência interativa, animada e responsiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tecnologias Utilizadas
+React – Biblioteca principal para construção da interface.
 
-## Expanding the ESLint configuration
+Vite – Ferramenta de bundling e dev server ultra-rápida.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+TypeScript – Superset de JavaScript com tipagem estática.
 
-- Configure the top-level `parserOptions` property like this:
+Material UI (MUI) – Componentes modernos e personalizáveis.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Framer Motion – Animações suaves e declarativas.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+ScrollReveal – Animações baseadas em scroll.
+
+TypeIt e react-typical – Efeitos de digitação dinâmica.
+
+Animate.css – Animações CSS simples e fáceis de usar.
+
+📦 Scripts
+
+Comando	Descrição
+
+npm run dev	Inicia o projeto em ambiente de desenvolvimento com Vite.
+
+npm run build	Compila o projeto com TypeScript e gera a versão de produção.
+
+npm run preview	Serve a build de produção localmente.
+
+npm run lint	Executa o ESLint para análise estática do código.

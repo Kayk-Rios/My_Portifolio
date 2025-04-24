@@ -136,12 +136,13 @@ hr {
 
 @media (max-width: 768px) {
   .flex {
-    justify-content: center;
+    flex-direction: column;
+    display: flex;
   }
 
   .section-card {
     padding: 10px;
-    width: 230px; 
+    width: 260px; 
     margin-bottom: 20px;
   }
 .section-card h4{

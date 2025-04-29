@@ -43,7 +43,7 @@ const About = () => {
       </div>
       <p className='p'>
         Sou um Full-Stack apaixonado por criar experiências e funcionais.
-        Com habilidades sólidas em desenvolvimento Web e Mobile, especializado em construir aplicações completas.
+        Com habilidades sólidas em desenvolvimento Web e Mobile, especializado aplicações completas.
       </p>
       <hr />
     </div>

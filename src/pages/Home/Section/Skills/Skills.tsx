@@ -17,6 +17,10 @@ import Prisma from "../../../../components/icontech/Prisma";
 import Tailwind from "../../../../components/icontech/Tailwind";
 import Git from "../../../../components/icontech/Git";
 import Linux from "../../../../components/icontech/Linux";
+import Qhaphql from "../../../../components/icontech/Qhaphql";
+import Sass from "../../../../components/icontech/Sass";
+import Figma from "../../../../components/icontech/Figma";
+import Node from "../../../../components/icontech/Nodejs"
 
 export function Skills() {
   const StyledHero = styled("div")(({ theme }) => ({
@@ -138,7 +142,7 @@ export function Skills() {
           </Grid>
           <Grid item xs={5} md={6} display="flex" justifyContent="center">
             <StyledButton onClick={() => console.log("contact")}>
-              <Typography title="Sql ">
+              <Typography title="MySql ">
                <SqlIcon/>
               </Typography>
             </StyledButton>
@@ -148,6 +152,14 @@ export function Skills() {
             <StyledButton onClick={() => console.log("contact")}>
               <Typography title="NestJs ">
               <Nesticon />
+              </Typography>
+            </StyledButton>
+          </Grid>
+
+          <Grid item xs={5} md={6} display="flex" justifyContent="center">
+            <StyledButton onClick={() => console.log("contact")}>
+              <Typography title="NodeJs ">
+              <Node/>
               </Typography>
             </StyledButton>
           </Grid>
@@ -174,6 +186,14 @@ export function Skills() {
           </Grid>
           <Grid item xs={5} md={6} display="flex" justifyContent="center">
             <StyledButton onClick={() => console.log("contact")}>
+              <Typography title="Figma">
+              <Figma/>
+              </Typography>
+            </StyledButton>
+          </Grid>
+
+          <Grid item xs={5} md={6} display="flex" justifyContent="center">
+            <StyledButton onClick={() => console.log("contact")}>
               <Typography title="Git ">
               <Git/>
               </Typography>
@@ -183,6 +203,22 @@ export function Skills() {
             <StyledButton onClick={() => console.log("contact")}>
               <Typography title="Linux ">
               <Linux/>
+              </Typography>
+            </StyledButton>
+          </Grid>
+
+          <Grid item xs={5} md={6} display="flex" justifyContent="center">
+            <StyledButton onClick={() => console.log("contact")}>
+              <Typography title="QraphQL">
+              <Qhaphql/>
+              </Typography>
+            </StyledButton>
+          </Grid>
+
+          <Grid item xs={5} md={6} display="flex" justifyContent="center">
+            <StyledButton onClick={() => console.log("contact")}>
+              <Typography title="Sass">
+              <Sass/>
               </Typography>
             </StyledButton>
           </Grid>
